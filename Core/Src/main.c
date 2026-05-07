@@ -257,7 +257,7 @@ int main(void)
   can_send(0, &sdo_frame);
   HAL_Delay(50);
 
-  // Настройка Mapping PDO 2
+  //Очистить mapping (sub0 = 0)
   sdo_frame.data[0] = 0x2F;
   sdo_frame.data[1] = 0x01;
   sdo_frame.data[2] = 0x1A;
@@ -284,7 +284,7 @@ int main(void)
   sdo_frame.data[2] = 0x1A;
   sdo_frame.data[3] = 0x02;
   sdo_frame.data[4] = 0x20;
-  sdo_frame.data[5] = 0x00;
+  sdo_frame.data[5] = 0x02;
   sdo_frame.data[6] = 0x64;
   sdo_frame.data[7] = 0x60;
   can_send(0, &sdo_frame);
@@ -299,6 +299,27 @@ int main(void)
   can_send(0, &sdo_frame);
   HAL_Delay(50);
 
+  // Настроить коммуникационные параметры (0x1801)
+  //    sub1: COB‑ID = 0x287 (бит 31=0, PDO активно)
+  sdo_frame.data[0] = 0x23;
+  sdo_frame.data[1] = 0x01;
+  sdo_frame.data[2] = 0x18;
+  sdo_frame.data[3] = 0x01;
+  sdo_frame.data[4] = 0x87;   // 0x00000287 это
+  sdo_frame.data[5] = 0x02;
+  sdo_frame.data[6] = 0x00;
+  sdo_frame.data[7] = 0x00;
+  can_send(0, &sdo_frame);
+  HAL_Delay(50);
+
+  //    sub2 тип передачи = 1 (синхронный, каждый SYNC)
+  sdo_frame.data[0] = 0x2F;   // 1 байт
+  sdo_frame.data[1] = 0x01;
+  sdo_frame.data[2] = 0x18;
+  sdo_frame.data[3] = 0x02;
+  sdo_frame.data[4] = 0x01;
+  can_send(0, &sdo_frame);
+  HAL_Delay(50);
 
   // Аналогично для скорости... (сделаю потом)
 

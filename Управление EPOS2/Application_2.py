@@ -8,7 +8,6 @@
 import socket
 import struct
 import threading
-import time
 
 UDP_IP = "192.168.1.10"
 UDP_PORT = 5000
@@ -21,15 +20,11 @@ CMD_START = 0x04
 RESP_TELEMETRY = 0x12
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-# Привязываем сокет локально, чтобы можно было слушать ответы асинхронно
 sock.bind(("", 5000))
 sock.settimeout(0.5)
 
-# Флаг для остановки потока
 running = True
 
-
-# --- ПОТОК ДЛЯ ПРИЕМА ТЕЛЕМЕТРИИ ---
 def receive_telemetry():
     while running:
         try:

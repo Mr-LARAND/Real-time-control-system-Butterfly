@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e41720-e707-4a8a-9705-d23ce3898e76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Core/Src/abstraction_layer.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/Src/abstraction_layer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/Src/pdo.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/Src/pdo.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Batterfly_test.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Batterfly_test.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Batterfly_test.list" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Batterfly_test.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Batterfly_test.map" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Batterfly_test.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.cyclo" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.cyclo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.su" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/abstraction_layer.su" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/main.cyclo" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/main.cyclo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/main.su" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/main.su" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Debug/Core/Src/pdo.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Debug/Core/Src/pdo.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
