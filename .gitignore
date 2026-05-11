@@ -1,0 +1,20 @@
+# Build folders
+firmware/Debug/
+
+# STM32CubeIDE
+.settings/
+.project
+.cproject
+
+# Generated files
+*.o
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+
+# Logs
+*.log
