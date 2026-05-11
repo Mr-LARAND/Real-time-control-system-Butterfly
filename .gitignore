@@ -1,20 +1,41 @@
-# Build folders
-firmware/Debug/
-
+# =========================
 # STM32CubeIDE
+# =========================
+
+.metadata/
 .settings/
+
+Debug/
+Release/
+
+*.launch
+
 .project
 .cproject
+.mxproject
 
-# Generated files
+# CubeIDE generated
 *.o
 *.d
 *.su
 *.elf
-*.hex
-*.bin
 *.map
 *.list
+
+# Build folders
+build/
+cmake-build-*/
+
+# OS мусор
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
 
 # Logs
 *.log
